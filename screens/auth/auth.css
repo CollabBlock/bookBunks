@@ -1,0 +1,25 @@
+
+body {
+    background-color:#343a40;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    background-color:#343a40;
+    color: #fff;
+    border: 1px solid white;
+}
+
+.card-header {
+    padding: 0.5rem 1rem;
+}
+
+.btn-block {
+    margin-top: 20px;
+}

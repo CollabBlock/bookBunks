@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar-brand {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Adjust the value to your preference */
+}
+
+
