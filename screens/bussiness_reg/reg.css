@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(170, 187, 181);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+.container {
+    margin-top: 100px;
+}
+
+.form-container,
+.specialty-container,
+.pricing-container,
+.faq-container {
+    background-color: rgba(94, 91, 91, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.specialty-card,
+.pricing-card {
+    margin-top: 20px;
+}
+
+.card-body {
+    background-color: #444;
+    color: #fff;
+}
+
+.vs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
