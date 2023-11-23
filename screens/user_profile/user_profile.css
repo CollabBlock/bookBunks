@@ -1,0 +1,50 @@
+body {
+    background: aquamarine;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-right{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #80cece;
+}
+
+.profile-button {
+    background: #80cece;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #80cece;
+}
+
+.profile-button:focus {
+    background: #80cece;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #80cece;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #80cece;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px;
+}
+
+.add-experience:hover {
+    background: #80cece;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #80cece;
+}
