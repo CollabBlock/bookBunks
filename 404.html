@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f6f6;
+      color: #333;
+    }
+    .error-container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    .error-code {
+      font-size: 120px;
+      color: #ff6347;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .error-message {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .back-to-home {
+      color: #fff;
+      background-color: #4285f4;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .back-to-home:hover {
+      background-color: #2a62b7;
+    }
+    .footer {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container error-container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="error-code">404</div>
+        <div class="error-message">Oops! Page not found</div>
+        <p>The page you are looking for might have been removed or is temporarily unavailable.</p>
+        <a href="/" class="btn btn-primary back-to-home">Back to Home</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Designed with ❤️ by Trio</div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
