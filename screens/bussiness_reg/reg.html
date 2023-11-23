@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(170, 187, 181);
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar a {
+            color: #fff;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        .form-container,
+        .specialty-container,
+        .pricing-container,
+        .faq-container {
+            background-color: rgba(94, 91, 91, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .specialty-card,
+        .pricing-card {
+            margin-top: 20px;
+        }
+
+        .card-body {
+            background-color: #444;
+            color: #fff;
+        }
+
+        .vs {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Hostel Owner Dashboard</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">BookBunks</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Registration Form -->
+<div class="container form-container">
+    <div class="row">
+        <div class="col-md-6 ml-auto">
+            <h2 class="text-center">Register Your Property</h2>
+            <!-- Basic Info Section -->
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="property_name">Property Name:</label>
+                    <input type="text" class="form-control" id="property_name" name="property_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="owner_name">Owner Name:</label>
+                    <input type="text" class="form-control" id="owner_name" name="owner_name" required>
+                </div>
+                <!-- Other basic info fields can be added here -->
+
+                <!-- Property Details Section -->
+                <div class="form-group">
+                    <label for="property_type">Property Type:</label>
+                    <select class="form-control" id="property_type" name="property_type" required>
+                        <option value="hostel">Hostel</option>
+                        <option value="guesthouse">Guesthouse</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="capacity">Capacity:</label>
+                    <input type="number" class="form-control" id="capacity" name="capacity" required>
+                </div>
+                <!-- Other property details fields can be added here -->
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Image -->
+<div class="container">
+    <!-- Featured Services Heading -->
+    <h2 class="text-center text-white mb-4">Featured Services</h2>
+</div>
+
+<!-- Specialty Cards -->
+<div class="container specialty-container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Secure Place</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in felis vel urna accumsan accumsan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">No Extra Fees</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in felis vel urna accumsan accumsan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">24/7 Maintenance</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in felis vel urna accumsan accumsan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="container pricing-container">
+    <h2 class="text-center mb-4">Pricing</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card pricing-card">
+                <div class="card-body">
+                    <h5 class="card-title">High Street Agent</h5>
+                    <p class="card-text">12% Management Fee</p>
+                    <li>
+                        <p>£1000 per month</p>
+                        <p>£12,000 per year</p>
+                        </p>
+                        <p>
+                            <strong>Total: £12,000</strong>
+                        </p>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <!-- <div class="vs">VS</div> -->
+            <div class="card pricing-card">
+                <div class="card-body">
+                    <h5 class="card-title">Fixed Prices</h5>
+                    <p class="card-text">No Variable Costs</p>
+                    <li>
+                        <p>
+                            <strong>£1000 per month</strong>
+                        </p>
+                        <p>
+                            <strong>£12,000 per year</strong>
+                        </p>
+                        <p>
+                            <strong>Total: £12,000</strong>
+                        </p>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Frequently Asked Questions -->
+<div class="container faq-container">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div class="faq-item">
+        <h5>Q: Your services?</h5>
+        <p>Answer: </p>
+    </div>
+    <div class="faq-item">
+        <h5>Q: Security Issues?</h5>
+        <p>Answer:</p>
+    </div>
+    <!-- Add more FAQ items as needed -->
+</div>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
