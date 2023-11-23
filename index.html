@@ -3,47 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Find a place to escape from reality
-    </title>
+    <title>Find a place to escape from reality</title>
 
-    <!-- font -->
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- bootstrap cdn -->
+    <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <!-- css -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+    .jumbotron {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("resource/image/landing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* Adjust the last value for opacity */
+    }
+
+
+    .feature-section {
+        padding: 50px 0; /* Padding for feature section */
+    }
+
+    .testimonial-section {
+        padding: 50px 0; /* Padding for testimonial section */
+    }
+    </style>
 </head>
 <body>
 
-    <!-- nav bar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">bookBunks</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="screens/contact/contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="screens/about/about.html">About US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="screens/user_profile/user_profile.html">View Profile</a>
-              </li>
-
-            </ul>
-          </div>
+            <a class="navbar-brand" href="index.html">bookBunks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="screens/contact/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="screens/about/about.html">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="screens/user_profile/user_profile.html">View Profile</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>Welcome to BookBunks!</h1>
+        <p>Your gateway to affordable and comfortable hostels.</p>
+        <!-- Add a call-to-action button -->
+        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+
+    <div class="container feature-section">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Search & Book</h3>
+                <p>Find the perfect hostel for your next adventure. Search by location, price, and amenities.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Reviews & Ratings</h3>
+                <p>Read reviews and ratings from fellow travelers to make informed decisions.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Hostel Owners</h3>
+                <p>Manage your property, update availability, and respond to user reviews through our dashboard.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid testimonial-section">
+      <div class="container">
+          <h2 class="text-center mb-4">What Users Say</h2>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card mb-4">
+                      <div class="card-body">
+                          <p class="card-text">"BookBunks helped me find a great hostel at an amazing price. Highly recommended!"</p>
+                          <p class="card-text"><small>- John Doe</small></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mb-4">
+                      <div class="card-body">
+                          <p class="card-text">"Easy booking process and excellent customer service. Will use again!"</p>
+                          <p class="card-text"><small>- Jane Smith</small></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mb-4">
+                      <div class="card-body">
+                          <p class="card-text">"Fantastic experience! BookBunks made my travel hassle-free."</p>
+                          <p class="card-text"><small>- Emily Johnson</small></p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Additional feedback cards -->
+              <div class="col-md-4">
+                  <div class="card mb-4">
+                      <div class="card-body">
+                          <p class="card-text">"Great selection of hostels. Found the perfect one for my trip!"</p>
+                          <p class="card-text"><small>- Alex Turner</small></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mb-4">
+                      <div class="card-body">
+                          <p class="card-text">"Amazing customer support and user-friendly interface."</p>
+                          <p class="card-text"><small>- Sarah Clark</small></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mb-4">
+                      <div class="card-body">
+                          <p class="card-text">"BookBunks exceeded my expectations. Definitely using it again!"</p>
+                          <p class="card-text"><small>- Michael Davis</small></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Book Bunks All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
