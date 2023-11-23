@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Booking Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom styles -->
+  <style>
+    /* Add your custom styles here */
+    /* For example: */
+    /* body {
+      padding-top: 60px;
+      font-family: Arial, sans-serif;
+    } */
+    .jumbotron {
+      background-image: url('../../resource/image/hostel.jpg');
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 150px 0;
+    }
+
+    
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">bookBunks</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="screens/contact/contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="screens/about/about.html">About US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="screens/user_profile/user_profile.html">View Profile</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+  <!-- Jumbotron/hero section -->
+  <div class="jumbotron">
+    <h1>Welcome to Our Hostel</h1>
+    <p>Explore comfortable and affordable accommodation options!</p>
+    <a class="btn btn-primary btn-lg" href="#booking" role="button">Book Now</a>
+  </div>
+
+<!-- About section -->
+<section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Our Hostel</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Comfortable Stay at Affordable Prices</h4>
+          <p>Welcome to our cozy hostel located in the heart of [City/Region]. Our hostel offers a comfortable and affordable stay for travelers from around the world. With a friendly atmosphere and convenient amenities, we strive to make your stay enjoyable and memorable.</p>
+          <p>Our facilities include:</p>
+          <ul>
+            <li>Modern dormitories and private rooms</li>
+            <li>Free Wi-Fi access in all areas</li>
+            <li>Fully equipped communal kitchen</li>
+            <li>Comfortable common lounge areas</li>
+            <li>24/7 front desk assistance</li>
+            <!-- Add more facilities as needed -->
+          </ul>
+          <p>Conveniently situated near popular attractions, restaurants, and transportation hubs, our hostel is the perfect base for exploring the vibrant city and its surroundings.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="../../resource/image/hostel.jpg" class="img-fluid" alt="Hostel Image">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <h4>Location</h4>
+          <p>Our hostel is located at:</p>
+          <address>
+            123 Hostel Street,<br>
+            Cityville, State,<br>
+            Zip Code<br>
+            Country
+          </address>
+          <p>Conveniently situated in a bustling area, we are close to public transportation and within walking distance to popular landmarks and entertainment spots.</p>
+          <p>For inquiries or bookings, feel free to contact us at [email] or [phone number]. We look forward to welcoming you to our hostel!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Rooms section -->
+<section id="rooms" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Rooms</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="../../resource/image/single.jpg" class="card-img-top" alt="Room Image 1">
+            <div class="card-body">
+              <h5 class="card-title">Single Room</h5>
+              <p class="card-text">Experience comfort in our cozy single rooms, equipped with a comfortable bed and essential amenities. Perfect for solo travelers.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="../../resource/image/double.jpg" class="card-img-top" alt="Room Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Double Room</h5>
+              <p class="card-text">Enjoy a spacious double room with modern furnishings, suitable for couples or friends traveling together.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="../../resource/image/Dormitory.jpg" class="card-img-top" alt="Room Image 3">
+            <div class="card-body">
+              <h5 class="card-title">Dormitory</h5>
+              <p class="card-text">Stay in our dormitory rooms offering shared accommodation, perfect for budget-conscious travelers seeking a social atmosphere.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="../../resource/image/family.jpg" class="card-img-top" alt="Room Image 4">
+            <div class="card-body">
+              <h5 class="card-title">Family Room</h5>
+              <p class="card-text">Experience comfort with your family in our spacious family rooms, designed to accommodate multiple guests.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Contact section -->
+<section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Contact Information</h4>
+          <p><strong>Address:</strong> 123 Hostel Street, Cityville, State, Zip Code, Country</p>
+          <p><strong>Email:</strong> info@examplehostel.com</p>
+          <p><strong>Phone:</strong> +123 456 7890</p>
+          <p>For any inquiries or assistance, feel free to reach out to us via email or phone. Our team is available to help you!</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Get in Touch</h4>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Book Bunks All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
