@@ -1,9 +1,13 @@
 body {
-    background-color: aquamarine;
+    background-color:azure;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    /* font-size: 16px; */
     margin: 0; 
     padding: 0; 
+}
+
+nav{
+    font-size: 16px;
 }
 
 .navbar-brand {
@@ -19,4 +23,34 @@ body {
     margin-right: 20px;
 }
 
+/* banner */
+.banner {
+    position: relative;
+    height: 650px; /* Adjust the height as needed */
+    background: url('../images/banner.jpg') center/cover no-repeat; /* Replace 'your-image.jpg' with your image URL */
+    color: #fff; /* Text color on top of the image */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
 
+.banner-container {
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    margin-left: 0;
+    border: 5px solid #2a9773;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .banner-container {
+        margin-top: 350px; 
+    }
+}
